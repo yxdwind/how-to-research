@@ -1,11 +1,11 @@
 ---
 name: how-to-research
-description: "怎么调研——从《怎样调研》（任仲然著，党建读物出版社）提炼的调研方法论技能库。当用户要做调研类任务（市场调研、竞品分析、行业研究、用户访谈、实地调查、问卷设计、调研报告撰写），或问及调查研究方法、蹲点调研、随机调研、文献调研、抽样、座谈会等概念，或需要按一套成熟方法论执行调研时使用。Use when planning or executing any research/investigation task, or referencing the book's frameworks."
+description: "怎样调研——从《怎样调研》（任仲然著，党建读物出版社）提炼的调研方法论技能库。当用户要做调研类任务（市场调研、竞品分析、行业研究、用户访谈、实地调查、问卷设计、调研报告撰写），或问及调查研究方法、蹲点调研、随机调研、文献调研、抽样、座谈会等概念，或需要按一套成熟方法论执行调研时使用。Use when planning or executing any research/investigation task, or referencing the book's frameworks."
 ---
 
 <!-- argument-hint: [主题, 方法名, 或讲次编号如 ch07] -->
 
-# 怎么调研
+# 怎样调研
 **源书**：《怎样调研》 | **作者**：任仲然 | **页数**：216 | **讲次**：12 | **生成**：2026-09-15
 
 ## 如何使用本技能
