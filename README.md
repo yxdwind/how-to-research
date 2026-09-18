@@ -17,6 +17,19 @@
 1. **给 AI 用**——执行市场调研、竞品分析、行业研究、用户访谈等任务时，按本 skill 的方法论干活
 2. **给自己用**——按讲次或主题快速检索书中观点与方法
 
+## 使用案例
+
+一句话调用示例（完整实战见 [examples/](examples/) 目录）：
+
+| 你说 | AI 会做什么 |
+|------|------------|
+| "帮我做竞品 X 的调研，按书里的流程来" | 定课题→组合拳选方式→拟纲目→开工，纲目即报告预演（[案例1](examples/example-1-competitor-research.md)） |
+| "下周走访 3 家客户门店，帮我把怎么让人说真话设计好" | 选点如选雀+屏退压制者+从小问题切入+证据链自检（[案例2](examples/example-2-field-interview.md)） |
+| "审一遍我的问卷初稿，逐题挑毛病" | 答项三原则、允全选诊断、量表四型选型（[案例3](examples/example-3-questionnaire-design.md)） |
+| "设计一套用户怨情与需求的摸底机制" | 五渠道盘点+六多筛选+问题两层分类+随机回访纪律（[案例4](examples/example-4-voice-of-user.md)） |
+| "调研材料都在这，帮我把报告写出来" | 定报告类型→挑干货→并列结构→五条心得自检（[案例5](examples/example-5-research-report.md)） |
+| "报告交了，怎么防止石沉大海" | 转化五出口判定+交换比较反复+落实三问（[案例6](examples/example-6-decision-conversion.md)） |
+
 ## 目录结构
 
 ```
@@ -35,9 +48,11 @@ how-to-research/
 │   ├── ch10-random-research.md        # 第十讲 随机调研
 │   ├── ch11-research-report.md        # 第十一讲 调研报告
 │   └── ch12-performance-impact.md     # 第十二讲 调研的绩效
+├── examples/             # 六个完整实战案例（竞品/走访/问卷/民意/报告/决策）
 ├── glossary.md           # 全书术语表
 ├── patterns.md           # 方法与模式全集
 ├── cheatsheet.md         # 决策速查表（最实用的一层）
+├── overview.html         # 可视化总览页
 └── README.md
 ```
 
@@ -53,7 +68,14 @@ how-to-research/
 
 ## 生成方式
 
-由 OpenClaw book-to-skill 流水线生成：216 页扫描版 PDF → OCR 全文提取（AutoClaw OCR）→ 结构分析 → 逐章提炼 → 人工校对整合。提炼遵循"提取结构，不抄原文"原则，框架命名保留作者原话。
+由 OpenClaw book-to-skill 流水线生成：216 页扫描版 PDF → OCR 全文提取（AutoClaw OCR）→ 结构分析 → 逐章提炼 → 安全扫描。提炼遵循"提取结构，不抄原文"原则，框架命名保留作者原话。
+
+## 机关工作实务四部曲
+
+- [how-to-run-meetings](https://github.com/yxdwind/how-to-run-meetings) —— 《怎样开会》（任仲然）
+- how-to-research（本仓库）—— 《怎样调研》（任仲然）
+- [how-to-write](https://github.com/yxdwind/how-to-write) —— 《怎样写作》（任仲然）
+- [smart-notes](https://github.com/yxdwind/smart-notes) —— 《卡片笔记写作法》（申克·阿伦斯）
 
 ## 版权说明
 
