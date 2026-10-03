@@ -24,7 +24,8 @@ $Candidates = @(
     "$env:USERPROFILE\.cline\skills",            # Cline
     "$env:USERPROFILE\.codebuddy\skills",        # CodeBuddy
     "$env:USERPROFILE\.openclaw\skills",         # OpenClaw
-    "$env:USERPROFILE\.openclaw-autoclaw\skills" # OpenClaw(AutoClaw)
+    "$env:USERPROFILE\.openclaw-autoclaw\skills", # OpenClaw(AutoClaw)
+    "$env:USERPROFILE\.zcode\skills"             # ZCode
 )
 
 $targets = @($Candidates | Where-Object { Test-Path (Split-Path $_ -Parent) })
@@ -36,7 +37,7 @@ if ($targets.Count -eq 0) {
 # 复制内容 = 仓库内除 .git 外全部文件
 function Copy-Skill($dest) {
     New-Item -ItemType Directory -Force -Path $dest | Out-Null
-    Get-ChildItem $RepoDir | Where-Object { $_.Name -ne '.git' } | ForEach-Object {
+    Get-ChildItem $RepoDir -Force | Where-Object { $_.Name -ne '.git' } | ForEach-Object {
         Copy-Item $_.FullName $dest -Recurse -Force
     }
 }
