@@ -83,6 +83,8 @@ how-to-research/
 ├── patterns.md           # 方法与模式全集
 ├── cheatsheet.md         # 决策速查表（最实用的一层）
 ├── overview.html         # 可视化总览页
+├── AUDIT.md              # 全面审计报告（2026-10-03，含修复记录）
+├── LICENSE               # MIT
 └── README.md
 ```
 
