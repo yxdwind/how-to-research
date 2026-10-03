@@ -26,7 +26,7 @@ description: "怎样调研——从《怎样调研》（任仲然著，党建读
 5. **出报告**（ch11）——边调研边起草，真实深高，五分写五分改
 6. **促转化**（ch12）——报告不是终点：决策、纠错、快报、理论、落实
 
-**停止规则**：一般任务读 1–3 个章节文件即可开工；动手前先扫一眼 [cheatsheet.md](cheatsheet.md)（决策速查），要具体做法查 [patterns.md](patterns.md)，查术语用 [glossary.md](glossary.md)。
+**停止规则**：环节括号里的章节是"需要加深时才读"的指针，不是必读清单——一般任务读 1–3 个章节文件即可开工；导向明确的小任务，第 1、2 环节用下方总纲即可，不必细读 ch02/ch03。**选方式**环节先用 [cheatsheet.md](cheatsheet.md) 的"调研方式选择树"定位（再细读 ≤2 章），动手前也建议先扫一眼 cheatsheet（决策速查）；要具体做法查 [patterns.md](patterns.md)，查术语用 [glossary.md](glossary.md)。
 
 ## 范围与限制
 
