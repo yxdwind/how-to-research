@@ -59,6 +59,9 @@ for t in "${TARGETS[@]}"; do
     echo "[!] 已存在: $dest （加 --force 覆盖）"
     continue
   fi
+  if [ -d "$dest" ]; then
+    rm -rf "$dest"   # 覆盖前先清空，避免仓库已删除的文件残留在已装目录
+  fi
   copy_skill "$dest"
   echo "[✓] 已安装 $SKILL_NAME -> $dest"
 done
