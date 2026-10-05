@@ -1,5 +1,7 @@
 # 怎样调研 (how-to-research)
 
+[![Release](https://img.shields.io/github/v/release/yxdwind/how-to-research)](https://github.com/yxdwind/how-to-research/releases/latest) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 > 从《怎样调研》（任仲然著，党建读物出版社 2019，"机关工作实务丛书"第二本）提炼的 Agent 技能库——不是书的摘要，而是一套可执行的调研方法论工具箱。
 
 ## 这是什么
@@ -109,6 +111,10 @@ how-to-research/
 - [how-to-write](https://github.com/yxdwind/how-to-write) —— 《怎样写作》（任仲然）
 - [smart-notes](https://github.com/yxdwind/smart-notes) —— 《卡片笔记写作法》（申克·阿伦斯）
 
+## 版本记录
+
+- **v1.0.0（2026-10-03）**：首个正式版。十二讲逐章拆解＋六个实战案例＋决策速查表＋党政/商业双场景映射；通过全面审计（原书 216 页逐讲对照、4 场景动态模拟测试全绿）并落实全部修复，过程与证据见 [AUDIT.md](AUDIT.md)。
+
 ## 版权说明
 
-本书版权归原作者及出版社（党建读物出版社）所有。本仓库仅包含对书中方法论的提炼与转述（合理使用），不包含原文文本；案例与数字为压缩转述，未逐字核对原书，引用请以原著为准。
+本书版权归原作者及出版社（党建读物出版社）所有。本仓库仅包含对书中方法论的提炼与转述（合理使用），不包含原文文本；案例与数字已经原书逐讲对照核验（见 [AUDIT.md](AUDIT.md)），引文为压缩转述，引用请以原著为准。
