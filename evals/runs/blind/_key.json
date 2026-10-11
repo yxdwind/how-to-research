@@ -1,0 +1,26 @@
+﻿[
+    {
+        "code":  "g7",
+        "source":  "evals\\runs\\baseline\\brief-3.md"
+    },
+    {
+        "code":  "k2",
+        "source":  "evals\\runs\\skill\\brief-2.md"
+    },
+    {
+        "code":  "m4",
+        "source":  "evals\\runs\\skill\\brief-1.md"
+    },
+    {
+        "code":  "q9",
+        "source":  "evals\\runs\\skill\\brief-3.md"
+    },
+    {
+        "code":  "x3",
+        "source":  "evals\\runs\\baseline\\brief-2.md"
+    },
+    {
+        "code":  "z6",
+        "source":  "evals\\runs\\baseline\\brief-1.md"
+    }
+]

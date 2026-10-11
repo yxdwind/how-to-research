@@ -1,0 +1,7 @@
+# 本地范文与私人材料（不入仓库）
+models/local/
+
+# 系统与临时文件
+.zwork/
+_thumbs.db
+Desktop.ini
