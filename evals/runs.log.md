@@ -16,4 +16,4 @@
 - 口径注记（评审标注）：①m4/q9 的 A1 按"工序附加件不计正文"口径判合规，按全文口径 m4 超档 +26% 需扣 4 分（下轮起简报应写明字数口径）；②x3 敌意审查实质齐备但无留痕按 W13 扣 2——正是本 skill 要固化的行为差异。
 - 结论：**总分未达「基线 +10%」判定线，纪律轨差值显著且 A4（三行自检）+ A5（场景硬规则）为全部差值来源**——与 how-to-write 首轮"纪律轨/文采轨"发现一致：基线模型本身笔力已强，skill 的确定性收益在纪律项。判定为"待复核"：下轮换更高难度简报（材料更脏、缺口更多、字数口径写明）复测后定"有效/回归"。
 
-流程备注：基线组子任务回报 execution_failed 但三份产物完整落盘且无 skill 污染痕迹，人工核验后采用；带 skill 组重跑一次后成功。盲评以匿名编码（g7/k2/m4/q9/x3/z6）进行，密钥在 evals/runs/blind/_key.json，评阅明细见 [review-blind-round1.md](review-blind-round1.md)。
+流程备注：基线组子任务回报 execution_failed 但三份产物完整落盘且无 skill 污染痕迹，人工核验后采用；带 skill 组重跑一次后成功。盲评以匿名编码（g7/k2/m4/q9/x3/z6）进行，密钥在 evals/runs/blind/_key.json，评阅明细见 [review-blind-round1.md](runs/review-blind-round1.md)。

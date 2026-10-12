@@ -11,6 +11,8 @@
 | [interview-guide.md](interview-guide.md) | 访谈/座谈/蹲点备装 | ch07/ch09/ch10 | rubrics/interview.md |
 | [research-report.md](research-report.md) | 调研报告 | ch11 | rubrics/report.md |
 
+> 示范稿中出现的筛项编号（P/W/I/R 等）对应 rubrics/ 现行版本（v1.1.0）；rubrics 重编号时需同步更新各卡。
+
 ## local/ —— 本地范文（不入仓库）
 
 `models/local/` 放你自己积累的真实方案/问卷/报告（含 AI 产出后经实战检验的版本），已被 .gitignore 排除。**约定：产出同一类成果时，local 真实范文优先于内置卡**——真实材料永远比合成示范值钱。

@@ -47,6 +47,8 @@ copy_skill() {
   mkdir -p "$dest"
   # 复制仓库内容（除 .git 外全部）
   (cd "$REPO_DIR" && find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec cp -r {} "$dest/" \;)
+  # 评测运行产物不入技能目录（保留 evals 核心：简报/评分表/跑分日志）
+  rm -rf "$dest/evals/runs"
 }
 
 for t in "${TARGETS[@]}"; do

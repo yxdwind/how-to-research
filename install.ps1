@@ -40,6 +40,9 @@ function Copy-Skill($dest) {
     Get-ChildItem $RepoDir -Force | Where-Object { $_.Name -ne '.git' } | ForEach-Object {
         Copy-Item $_.FullName $dest -Recurse -Force
     }
+    # 评测运行产物不入技能目录（保留 evals 核心：简报/评分表/跑分日志，供改 skill 后回归）
+    $runs = Join-Path $dest 'evals\runs'
+    if (Test-Path $runs) { Remove-Item $runs -Recurse -Force }
 }
 
 foreach ($t in $targets) {
