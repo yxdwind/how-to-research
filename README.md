@@ -56,12 +56,13 @@ git clone https://github.com/yxdwind/how-to-research.git
 
 | 你说 | AI 会做什么 |
 |------|------------|
-| "帮我做竞品 X 的调研，按书里的流程来" | 定课题→组合拳选方式→拟纲目→开工，纲目即报告预演（[案例1](examples/example-1-competitor-research.md)） |
+| "帮我做竞品 X 的调研，按书里的流程来" | 走 workflow 六步工序：课题卡送审→定式备料→组合拳选方式→拟纲目开工，纲目即报告预演（[案例1](examples/example-1-competitor-research.md)） |
 | "下周走访 3 家客户门店，帮我把怎么让人说真话设计好" | 选点如选雀+屏退压制者+从小问题切入+证据链自检（[案例2](examples/example-2-field-interview.md)） |
 | "审一遍我的问卷初稿，逐题挑毛病" | 答项三原则、允全选诊断、量表四型选型（[案例3](examples/example-3-questionnaire-design.md)） |
 | "设计一套用户怨情与需求的摸底机制" | 五渠道盘点+六多筛选+问题两层分类+随机回访纪律（[案例4](examples/example-4-voice-of-user.md)） |
 | "调研材料都在这，帮我把报告写出来" | 定报告类型→挑干货→并列结构→五条心得自检（[案例5](examples/example-5-research-report.md)） |
 | "报告交了，怎么防止石沉大海" | 转化五出口判定+交换比较反复+落实三问（[案例6](examples/example-6-decision-conversion.md)） |
+| "材料都在这，出份方案/问卷/报告" | 产出前读 [models/](models/) 范文卡对标，交付前过 [rubrics/](rubrics/) 筛并附三行自检报告——产出任务必走 [workflow.md](workflow.md) |
 
 ## 目录结构
 
