@@ -1,0 +1,26 @@
+﻿[
+    {
+        "code":  "r2-a3",
+        "source":  "evals\\runs\\skill\\brief-6.md"
+    },
+    {
+        "code":  "r2-b9",
+        "source":  "evals\\runs\\baseline\\brief-6.md"
+    },
+    {
+        "code":  "r2-c1",
+        "source":  "evals\\runs\\skill\\brief-5.md"
+    },
+    {
+        "code":  "r2-d8",
+        "source":  "evals\\runs\\baseline\\brief-4.md"
+    },
+    {
+        "code":  "r2-e5",
+        "source":  "evals\\runs\\skill\\brief-4.md"
+    },
+    {
+        "code":  "r2-f7",
+        "source":  "evals\\runs\\baseline\\brief-5.md"
+    }
+]
