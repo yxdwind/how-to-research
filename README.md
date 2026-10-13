@@ -93,6 +93,7 @@ how-to-research/
 ├── overview.html         # 可视化总览页
 ├── AUDIT.md              # 全面审计报告（2026-10-03 全量 + 2026-10-12 v1.1.0 增量）
 ├── release-notes-v1.1.0.md  # v1.1.0 发布说明（Release 存档）
+├── release-notes-v1.1.1.md  # v1.1.1 发布说明（Release 存档）
 ├── LICENSE               # MIT
 └── README.md
 ```
