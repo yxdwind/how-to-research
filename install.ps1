@@ -40,9 +40,14 @@ function Copy-Skill($dest) {
     Get-ChildItem $RepoDir -Force | Where-Object { $_.Name -ne '.git' } | ForEach-Object {
         Copy-Item $_.FullName $dest -Recurse -Force
     }
-    # 评测运行产物不入技能目录（保留 evals 核心：简报/评分表/跑分日志，供改 skill 后回归）
+    # 评测运行产物与仓库专用文档不入技能目录（保留 evals 核心：简报/评分表/跑分日志，供改 skill 后回归）
     $runs = Join-Path $dest 'evals\runs'
     if (Test-Path $runs) { Remove-Item $runs -Recurse -Force }
+    foreach ($name in @('AUDIT.md', 'overview.html')) {
+        $p = Join-Path $dest $name
+        if (Test-Path $p) { Remove-Item $p -Recurse -Force }
+    }
+    Get-ChildItem $dest -Filter 'release-notes-*.md' -ErrorAction SilentlyContinue | Remove-Item -Force
 }
 
 foreach ($t in $targets) {
