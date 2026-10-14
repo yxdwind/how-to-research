@@ -127,6 +127,7 @@ how-to-research/
 
 ## 版本记录
 
+- **v1.2.0（2026-10-14）**：执行层定型。SKILL.md 执行模式段压缩为纯知识地图（执行细则收敛到 workflow 单一来源）；新增 models/local/templates/ 四张填空模板（方案/问卷/访谈/报告，随仓库分发）降低本地范文自建门槛；glossary 新增执行层术语章、cheatsheet 新增产出任务速查；workflow 第⑥步固化自检逐项留痕要求（纯计数不算留痕）；install 双脚本黑名单补全（AUDIT/overview/release-notes 不入技能目录）；description 触发词扩充（mystery shopping/field studies 等）。评测扩展至四类产出物（简报×7），两轮判定有效后重构回归 4/4 无退化（98–100 分）。过程见 [evals/runs.log.md](evals/runs.log.md)。
 - **v1.1.1（2026-10-12）**：v1.1.0 增量审计修复。范文卡忠实度硬伤修复（interview-guide 卡 3：310-330 斤归位双季稻细账，母猪账另列）；overview.html 目录树与统计口径同步；runs.log 断链、README 目录补全；安装脚本复制后剔除 evals/runs 评测产物并修复 UTF-8 BOM 丢失（PowerShell 5.1 兼容）；workflow 新增课题卡交付表述纪律；问卷示范稿缴饭费改独立性纪律口径；简报写明字数/题数口径；models 注明筛项编号对应 rubrics 现行版本。过程与证据见 [AUDIT.md](AUDIT.md) 增量审计节。
 
 - **v1.1.0（2026-10-11）**：执行层升级（参照姊妹篇 how-to-write 同构）。新增 `workflow.md` 强制调研工序（六步＋AI 代办/人机协作分轨＋轻量压缩规则）、`models/` 范文拆解卡（方案/问卷/访谈/报告四卡，各含原书案例拆解＋合成示范稿）、`rubrics/` 交付自检筛（通用筛 15 项＋场景筛×4）、`evals/` 基准评测体系（简报×3＋评分表＋跑分日志）；SKILL.md 新增强制工序入口段并重写支撑文件路由；description 扩充方案/问卷/报告交付触发词。首轮盲评回归：溯源零编造、硬指标零退化，纪律轨差值 +12～15 分（三行自检＋场景硬规则为主要增益源），总分差 +2.0～+3.2 未达 +10% 判定线（基线组判断轨近满分，待更高难度简报复测），详见 [evals/runs.log.md](evals/runs.log.md)。
