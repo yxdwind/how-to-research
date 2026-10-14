@@ -84,7 +84,7 @@ how-to-research/
 │   ├── ch11-research-report.md        # 第十一讲 调研报告
 │   └── ch12-performance-impact.md     # 第十二讲 调研的绩效
 ├── examples/             # 六个完整实战案例（竞品/走访/问卷/民意/报告/决策）
-├── models/               # 范文拆解卡：方案/问卷/访谈/报告四类产出物（产出前读；local/ 不入仓库）
+├── models/               # 范文拆解卡：方案/问卷/访谈/报告四类产出物（产出前读；local/ 本地范文不入仓库，templates/ 模板随仓库分发）
 ├── rubrics/              # 交付前自检筛：通用筛＋四份场景筛（交付前过筛）
 ├── evals/                # 基准评测：任务简报＋评分表＋跑分日志（改 skill 后跑回归）
 ├── glossary.md           # 全书术语表

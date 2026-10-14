@@ -1,8 +1,11 @@
-# 本地范文与私人材料（不入仓库）
-models/local/
+# 本地范文与私人材料（不入仓库；模板除外）
+models/local/*
+!models/local/templates/
 
 # 系统与临时文件
 .zwork/
 _thumbs.db
 Desktop.ini
+tmp_*
+memory/
 memory/
