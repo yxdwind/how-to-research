@@ -64,6 +64,8 @@ git clone https://github.com/yxdwind/how-to-research.git
 | "报告交了，怎么防止石沉大海" | 转化五出口判定+交换比较反复+落实三问（[案例6](examples/example-6-decision-conversion.md)） |
 | "材料都在这，出份方案/问卷/报告" | 产出前读 [models/](models/) 范文卡对标，交付前过 [rubrics/](rubrics/) 筛并附三行自检报告——产出任务必走 [workflow.md](workflow.md) |
 
+> 所有产出任务交付前都会过对应筛并附三行自检报告；数据、事实、引语查不到出处一律标【待核实】，禁止编造调研发现。
+
 ## 目录结构
 
 ```
